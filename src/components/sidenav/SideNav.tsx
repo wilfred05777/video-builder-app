@@ -7,3 +7,5 @@ const SideNav = () => {
 };
 
 export default SideNav;
+
+// https://github.com/fireship-io/tailwind-dashboard
