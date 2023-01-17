@@ -3,7 +3,16 @@ import React from "react";
 import "./sideNav.scss";
 
 const SideNav = () => {
-  return <div>SideNav</div>;
+  return (
+    <div className="sidenav  dark:bg-gray-900 shadow-lg">
+      <i>A</i>
+      <i>B</i>
+      <i>C</i>
+      <i>D</i>
+      <i>E</i>
+      <i>F</i>
+    </div>
+  );
 };
 
 export default SideNav;
