@@ -7,16 +7,21 @@ import { BsPlus, BsFillLightningFill, BsGearFill } from "react-icons/bs";
 // import { FaFire, FaPoo, FiSettings } from "react-icons/fa";
 import { TbCameraPlus, TbLetterT, TbMusic, TbNote, TbPencil, TbQuestionMark, TbSettings, TbUnderline, TbVideo } from "react-icons/tb";
 
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
 const SideNav = () => {
   return (
+    <>
     <div className="sidenav">
       <div className="icons">
-          {/* <Link to={`/settings`}> */}
-            <div className="iconsItem">
-              <TbSettings className="icon" size={24} />
-              <span className="iconText">Settings</span>
-            </div>
-          {/* </Link> */}
+            {/* <Route path='/settings'> */}
+            {/* <Link to={`/settings`}> */}
+              <div className="iconsItem">
+                <TbSettings className="icon" size={24} />
+                <span className="iconText">Settings</span>
+              </div>
+            {/* </Link> */}
+            {/* </Route> */}
           <div className="iconsItem">
             <TbCameraPlus className="icon" size={24} />
             <span className="iconText">Media</span>
@@ -51,6 +56,7 @@ const SideNav = () => {
           </div> 
       </div>
     </div>
+    </>
   );
 };
 

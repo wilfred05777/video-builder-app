@@ -11,6 +11,8 @@ function App() {
   return (
     <div className="app">
       <SideNav/>
+
+      
       {/* <Routes>
         <Route>
           <Route path='/settings' element={<SideNav/>}/>
