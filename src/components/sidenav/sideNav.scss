@@ -1,14 +1,57 @@
 .sidenav{
-  color: #fff;
+  padding-top: 20px;
+  color: rgb(67, 65, 65);
+  border-right: 1px rgba(0, 0, 0, 0.042) solid;
   height: 100vh;
-  width: 4rem;
+  width: 80px;
   position: fixed;
-  top: 0px;
-  left: 0px;
-  margin: 0px;
   display: flex;
   flex-direction: column;
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
   text-align: center;
+  // justify-content: center;
+
+  .icons{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    gap: 10px;
+
+    .iconsItem{
+      // display: flex;
+      // flex-direction: column;
+      // align-items: center;
+      // gap: 20px 0px;
+      padding: 5px 0px;
+      // border: 1px solid red;
+      
+      .icon{
+       
+        // padding: 10px;
+        // border-radius: 50px;
+        // background-color: rgba(128, 128, 128, 0.255);
+      }
+
+
+      &:last-of-type{
+        // bottom: 0px;
+        // align-self: flex-end;
+        // vertical-align: bottom;
+        // align-self: flex-end;
+        // padding-top: -20px;
+        // background-color: red;
+      }
+
+      
+    }
+    .iconText{
+      display: flex;
+      justify-content: center;
+      font-weight: 300;
+      font-size: 12px;
+      padding-top: 0px;
+      
+
+    }
+  }
 }
