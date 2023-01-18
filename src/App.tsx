@@ -9,6 +9,8 @@ function App() {
   return (
     <div className="app">
        <SideNav/>
+       {/* settings row */}
+       {/* output row */}
     </div>
   )
 }
