@@ -1,19 +1,22 @@
-import React from "react";
+// import React from "react";
+import Link from 'react-router-dom'
 // styles
 import "./sideNav.scss";
 // icons react-icons
 import { BsPlus, BsFillLightningFill, BsGearFill } from "react-icons/bs";
-import { FaFire, FaPoo, FiSettings } from "react-icons/fa";
+// import { FaFire, FaPoo, FiSettings } from "react-icons/fa";
 import { TbCameraPlus, TbLetterT, TbMusic, TbNote, TbPencil, TbQuestionMark, TbSettings, TbUnderline, TbVideo } from "react-icons/tb";
 
 const SideNav = () => {
   return (
     <div className="sidenav">
       <div className="icons">
-          <div className="iconsItem">
-            <TbSettings className="icon" size={24} />
-            <span className="iconText">Settings</span>
-          </div>
+          {/* <Link to={`/settings`}> */}
+            <div className="iconsItem">
+              <TbSettings className="icon" size={24} />
+              <span className="iconText">Settings</span>
+            </div>
+          {/* </Link> */}
           <div className="iconsItem">
             <TbCameraPlus className="icon" size={24} />
             <span className="iconText">Media</span>
